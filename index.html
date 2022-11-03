@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Calculadora de IMC</h1>
+    </header>
+
+    <main>
+        <form >
+        <label for="peso">Informe seu peso (kg)</label><br>
+        <input id="peso" type="text" name="peso" value="" class="texto" placeholder="0"><br>
+        <label for="altura">Informe sua altura (metro e cm)</label><br>
+        <input id="altura" type="text" name="altura" value="" class="texto" placeholder="0.0">
+        <div class="calcular-resultado">
+            <input id="calcular" type="button" name="calcular" value="Calcular" class="btn">
+            <div id="resultado">
+                <span id="imc"></span>
+                <span id="nivel" value=""></span>
+            </div>
+        </div>
+    </form>
+    </main>
+
+    <footer>
+        <h4>Criado por Arthur Huelsen</h4>
+    </footer>
+</body>
+</html>
